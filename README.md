@@ -2,7 +2,12 @@
 
 ## Introduction
 
-There exists two tables in the DB: `customers` and `purchases`.  
+This is a simple Flask app where the user can upload a file with 
+tab-separated values.  
+The app ingests the TSV into two history tables in SQLite: 
+`customers` and `purchases`.  
+The history tables contain the latest state of the customer or customer's 
+purchase determined by the latest timestamp.  
 
 ## Setup
 
